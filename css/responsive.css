@@ -1,0 +1,70 @@
+@media only screen and (min-width: 300px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+  
+}
+@media only screen and (min-width: 400px) {
+    .header {
+        position: fixed;
+        top: 30%;
+        right: -10%;
+        transform: rotate(90deg);
+    }
+    h1 {
+        font-size: 3.0rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (min-width: 550px) {
+    .header {
+        position: fixed;
+        top: 30%;
+        right: 5%;
+        transform: rotate(90deg);
+    }
+    h1 {
+        font-size: 2.7rem;
+    }
+    h2 {
+        font-size: 2.2rem;
+    }
+    .main {
+        background-size: contain;
+        background-position: center bottom;
+    }
+    .social-container {
+        position: fixed;
+        top: 85%;
+        left: 2%;
+    }
+}
+@media only screen and (min-width: 750px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (min-width: 930px) {
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 3.5rem;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    h1 {
+        font-size: 4.5rem;
+    }
+    h2 {
+        font-size: 4rem;
+    }
+}

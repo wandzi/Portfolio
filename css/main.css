@@ -10,7 +10,7 @@ html {
   width: 100vw;
   height: 100vh;
   background-image: url(../img/avatar.png);
-  background-position: 14% 50%;
+  background-position: 24% 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -24,20 +24,20 @@ html {
   flex-direction: column;
 }
 h1 {
-  font-size: 3.5rem;
+  font-size: 2.7rem;
 }
 h2 {
-  font-size: 3.0rem;
+  font-size: 2.3rem;
 }
 .mark {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
   color: #eeff00;
 }
 .social-container {
   position: fixed;
   top: 60%;
-  left: 5%;
+  left: 0%;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -45,7 +45,7 @@ h2 {
 }
 svg {
   fill: #eeff00;
-  height: 45px;
+  height: 35px;
   margin: 7px;
 }
 a {
@@ -56,13 +56,4 @@ a {
   position: fixed;
   bottom: 0%;
   color: #ffffff;
-}
-
-@media only screen and (max-height: 600px) {
-  .header {
-    position: fixed;
-    top: 30%;
-    right: 0%;
-    transform: rotate(90deg);
-  }
 }
