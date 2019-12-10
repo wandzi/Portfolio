@@ -1,0 +1,68 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/avatar.png);
+  background-position: 14% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  position: absolute;
+  top: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 3.0rem;
+}
+.mark {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #eeff00;
+}
+.social-container {
+  position: fixed;
+  top: 60%;
+  left: 5%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+}
+svg {
+  fill: #eeff00;
+  height: 45px;
+  margin: 7px;
+}
+a {
+  cursor: pointer;
+}
+.footer-email {
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0%;
+  color: #ffffff;
+}
+
+@media only screen and (max-height: 600px) {
+  .header {
+    position: fixed;
+    top: 30%;
+    right: 0%;
+    transform: rotate(90deg);
+  }
+}
